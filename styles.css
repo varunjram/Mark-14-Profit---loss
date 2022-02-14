@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Redressed&family=Roboto+Mono&display=swap');
+
+body {
+
+    /* font: Redressed; */
+
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Redressed';
+
+    /* font-family: 'Roboto Mono', monospace; */
+
+    display: flex;
+    margin: auto;
+
+    width: 100vh;
+    height: 100vh;
+
+    overflow: hidden;
+    text-align: center;
+
+    /* background-color: gainsboro; */
+    background: linear-gradient(to top right, gainsboro 0%, black 100%);
+    background-repeat: no-repeat;
+
+
+}
+
+label {
+
+    display: block;
+    padding-bottom: 1rem;
+
+}
+
+.parent {
+    display: flex;
+
+    padding-top: 15rem;
+
+
+
+}
+
+.child {
+
+    flex-grow: 1;
+    width: 50%;
+}
+
+
+.grey {
+
+    background-color: black;
+
+    color: white;
+    border: transparent;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    /* width: 450px; */
+    /* margin: 2; */
+
+    padding: 5rem;
+
+}
+
+
+.white {
+
+    background-color: white;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 5rem;
+
+
+}
