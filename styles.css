@@ -1,83 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Redressed&family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Redressed&family=Roboto+Mono&display=swap");
 
 body {
+  /* font: Redressed; */
 
-    /* font: Redressed; */
+  /* font-family: 'Pacifico', cursive; */
+  font-family: "Redressed";
 
-    /* font-family: 'Pacifico', cursive; */
-    font-family: 'Redressed';
+  /* font-family: 'Roboto Mono', monospace; */
 
-    /* font-family: 'Roboto Mono', monospace; */
+  display: flex;
+  margin: auto;
 
-    display: flex;
-    margin: auto;
+  width: 100vh;
+  height: 100vh;
 
-    width: 100vh;
-    height: 100vh;
+  overflow: hidden;
+  text-align: center;
 
-    overflow: hidden;
-    text-align: center;
-
-    /* background-color: gainsboro; */
-    background: linear-gradient(to top right, gainsboro 0%, black 100%);
-    background-repeat: no-repeat;
-
-
+  /* background-color: gainsboro; */
+  background: linear-gradient(to top right, gainsboro 0%, black 100%);
+  background-repeat: no-repeat;
 }
 
 label {
-
-    display: block;
-    padding-bottom: 1rem;
-
+  display: block;
+  padding-bottom: 1rem;
 }
 
 .parent {
-    display: flex;
+  display: flex;
 
-    padding-top: 15rem;
-
-
-
+  padding-top: 15rem;
 }
 
 .child {
-
-    flex-grow: 1;
-    width: 50%;
+  flex-grow: 1;
+  width: 50%;
 }
-
 
 .grey {
+  background-color: black;
 
-    background-color: black;
+  color: white;
+  border: transparent;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  /* width: 450px; */
+  /* margin: 2; */
 
-    color: white;
-    border: transparent;
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-    /* width: 450px; */
-    /* margin: 2; */
-
-    padding: 5rem;
-
+  padding: 5rem;
 }
-
 
 .white {
-
-    background-color: white;
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    padding: 5rem;
+  background-color: white;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 5rem;
 }
 
-
 button {
+  padding: 10px 40px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 10px;
+}
 
-padding: 10px 40px;
-background-color: transparent;
-border: 2px solid black;
-border-radius: 10px;
-
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-inline-start: 0px;
 }
