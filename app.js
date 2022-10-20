@@ -13,7 +13,11 @@ function submitHandler() {
   var qty = Number(stocksQuantity.value);
   var curr = Number(currentPrice.value);
 
-  calculateProfitAndLoss(ip, qty, curr);
+  if (ip > 0 && qty > 0 && curr > 0) {
+    calculateProfitAndLoss(ip, qty, curr);
+  } else {
+    alert("please enter number greater than 0");
+  }
 }
 
 function calculateProfitAndLoss(initial, quantity, current) {
